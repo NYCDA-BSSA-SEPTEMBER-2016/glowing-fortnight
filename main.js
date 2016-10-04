@@ -9,6 +9,6 @@ $("#text").fadeIn(3000).fadeOut(2000, function(){
 $('.nav a').click(function(){
     $('html, body').animate({
         scrollTop: $( $(this).attr('href') ).offset().top -50
-    }, 500);
+    }, 1250);
     return false;
 });
