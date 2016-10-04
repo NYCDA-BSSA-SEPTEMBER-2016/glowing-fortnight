@@ -1,5 +1,6 @@
 $("#text").hide()
-$("#text2").hide()
-$("#text").fadeIn(700);
-$("#text").fadeOut(700);
-$("text2").fadeIn(500);
+$("#texttext").hide()
+$("#text").fadeIn(3000).fadeOut(2000, function(){
+  console.log('text faded out')
+    $("#texttext").fadeIn(2000);
+});
